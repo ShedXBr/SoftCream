@@ -1,14 +1,14 @@
 <script setup>
-
+import { RouterLink } from 'vue-router';
 </script>
-
 <template>
   <nav>
     <h1>SoftCream</h1>
     <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Menu</a></li>
+      <li><a href=""><RouterLink to="/">Home</RouterLink></a></li>
+      <li><a href=""><RouterLink to="/menu">Menu</RouterLink></a></li>
       <li><a href="">NewsLetter</a></li>
+      <li><a href=""><RouterLink to="/cart"><i class='bx bxs-cart' ></i></RouterLink></a></li>
     </ul>
   </nav>
 </template>
@@ -44,6 +44,9 @@ nav ul li a{
   color:#3C1006;
   text-decoration: none;
   position: relative;
+}
+.bx{
+  font-size: 1.5rem;
 }
 nav ul li a::before{
   position:absolute;

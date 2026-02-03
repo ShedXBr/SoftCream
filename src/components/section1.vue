@@ -40,7 +40,7 @@ body{
 }
 #Home{
   width: 100%;  
-  background-image: url("../cafeteria.png");
+  background-image: url("../assets/cafeteria.png");
   background-size: cover;
   height: 750px;
 }
