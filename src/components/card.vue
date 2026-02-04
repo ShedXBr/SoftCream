@@ -36,6 +36,7 @@ function saveincart(){
         price: props.price
             })
                 alert("Product added to cart!")
+                break;
         }
         }
         

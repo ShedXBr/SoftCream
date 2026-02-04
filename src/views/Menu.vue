@@ -2,7 +2,7 @@
 
 
 import Menu from "../components/menu.vue"
-import list from "../components/productcart.vue"
+
 import SectionContact from "../components/section2.vue"
 </script>
 
@@ -10,7 +10,7 @@ import SectionContact from "../components/section2.vue"
   
   
   <Menu/>
-  <list/>
+  
   <SectionContact/>
   
 </template>
