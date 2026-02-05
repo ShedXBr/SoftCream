@@ -200,4 +200,10 @@ h2{
   display: flex;
   border-top: #3C1006 3px solid;
 }
+@media  (max-width:768px){
+#favorites{
+  width: 100vw;
+  overflow: hidden;
+}
+}
 </style>

@@ -39,4 +39,10 @@ h1{
 .texts{
     text-align: center;
 }
+@media  (max-width:768px){
+    #contact{
+        width: 100vw;
+        overflow: hidden;
+    }
+}
 </style>

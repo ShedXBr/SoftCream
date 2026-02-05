@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router';
     <ul>
       <li><a href=""><RouterLink to="/">Home</RouterLink></a></li>
       <li><a href=""><RouterLink to="/menu">Menu</RouterLink></a></li>
-      <li><a href="">NewsLetter</a></li>
+      <li><a href=""><RouterLink to="/news">NewsLetter</RouterLink></a></li>
       <li><a href=""><RouterLink to="/cart"><i class='bx bxs-cart' ></i></RouterLink></a></li>
     </ul>
   </nav>
@@ -62,5 +62,22 @@ nav ul li a:hover::before, nav ul li a:hover{
   width: 100%;
   
   color:#D3BCA5;
+}
+@media  (max-width:768px){
+  h1{
+    font-size: 1.5rem;
+  }
+  nav{
+    justify-content: center;
+    width: 100vw;
+    
+  }
+  nav ul{
+    margin:0;
+    padding: 6px;
+  }
+  nav ul li{
+    margin:5px;
+  }
 }
 </style>

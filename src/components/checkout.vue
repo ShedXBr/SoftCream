@@ -97,7 +97,9 @@ input {
   border:none;
   background-color: #3C1006;
 }
-
+input::placeholder{
+    color:#E2D7CB;
+}
 .row {
   display: flex;
   gap: 12px;

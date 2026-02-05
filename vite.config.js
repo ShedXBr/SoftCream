@@ -4,4 +4,8 @@ import vue from '@vitejs/plugin-vue'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  server:{
+    host:true,
+    allowedHosts:['a3f372f883e9.ngrok-free.app']
+  }
 })

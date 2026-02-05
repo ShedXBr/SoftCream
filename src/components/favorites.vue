@@ -108,4 +108,19 @@ a{
    text-decoration: none;
    color:#E2D7CB;
 }
+@media  (max-width:768px){
+   #favorites{
+      overflow-y: scroll;
+      overflow-x: hidden;
+      width: 100vw;
+   }
+   .fav{
+      flex-direction: column;
+      align-items: center;
+      
+   }
+   h1{
+      left:0;
+   }
+}
 </style>

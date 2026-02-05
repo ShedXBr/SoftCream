@@ -63,4 +63,17 @@ span{
     background-size: cover;
     padding: 5px;
 }
+@media  (max-width:768px){
+  #Home{
+    width: 100vw;
+    overflow: hidden;
+  }
+  h1{
+    width: 90vw;
+  }
+  pre{
+    width: 90vw;
+    left:-20px;
+  }
+}
 </style>
